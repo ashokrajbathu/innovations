@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'saasmart-icon';
+  src:  url('fonts/saasmart-icon57f9.eot?pdvt8d');
+  src:  url('fonts/saasmart-icon57f9.eot?pdvt8d#iefix') format('embedded-opentype'),
+    url('fonts/saasmart-icon57f9.ttf?pdvt8d') format('truetype'),
+    url('fonts/saasmart-icon57f9.woff?pdvt8d') format('woff'),
+    url('fonts/saasmart-icon57f9.svg?pdvt8d#saasmart-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="saasmart-icon-"], [class*=" saasmart-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'saasmart-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.saasmart-icon-language:before {
+  content: "\e903";
+}
+.saasmart-icon-location-pin-1:before {
+  content: "\e900";
+}
+.saasmart-icon-mail:before {
+  content: "\e901";
+}
+.saasmart-icon-phone-call-2:before {
+  content: "\e902";
+}
