@@ -5236,4 +5236,8 @@ a, a:active, a:hover, a:focus, a:visited {
   margin-bottom: 10px;
 }
 
+.container.banner-text{
+  margin-left: 0px;
+}
+
 /*# sourceMappingURL=style.css.map */

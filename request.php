@@ -1,8 +1,8 @@
 <?php
 session_start();
 ob_start();
-$to = "vstsdesigner77@gmail.com";
-$web = "KALAATAL";
+$to = "ravi@alieninnovations.in";
+$web = "ALIEN INNOVATIONS";
 
 
     $subject = "Contact us From ".$_POST['name'];
